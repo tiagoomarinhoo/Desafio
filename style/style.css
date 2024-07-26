@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    width: auto;
+}
+
+.logo{
+    padding: 2% 0 0 2% ;
+}
+.conteudocentro{
+
+    display: flex; 
+    padding: 5% 10%;
+    gap: 82px
+}
+.conteudocentro_centro{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.display_texto{
+    width: 90%;
+    height: 60%;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 6% 0  0  10%;
+    font-family: "Inter", sans-serif;
+    border: none;
+    resize: none;
+    outline: none;
+    background-color: #f2f2f2;
+    color: #0A3871;
+    
+}
+
+::placeholder {
+    color:  #0A3871;
+  }
+
+  .display_orientacao{
+    display: flex;
+    gap: 5px;
+    margin-top: 12rem;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: #495057;
+  }
+
+.display_bt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;    
+}
+
+.bt_Criptografar{
+    padding: 5% 17%;
+    background: #0A3871;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 32px;
+}
+
+.bt_descriptografar{
+    background: #D8DFE8;
+    padding: 5% 17%;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+}
+.caixa_direita{
+    display: flex;
+    width: 400px;
+    height: 944px;
+    background: white;
+    border-radius: 2rem;
+}
+.coteudodocentro_barradireita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.imagem{
+    width: 22.8rem;
+}
+
+.conteudo_texto{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.caixa_h3{
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #343A40;
+}
+.caixa_p{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+}
+
+.caixaresultado{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    
+}
+.textocriptografado{
+    padding: 8%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400px;
+    justify-content: flex-start;
+    font-size: 24px;
+}
+.caixa_bt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 20px;
+}
+
+#bt_copiar{
+   
+    padding: 70%  350%;
+    margin-bottom: 32px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    border-radius: 1rem;
+  
+
+}
+
+.rodape{
+    color:white;
+    background-color:#0A3871; 
+    padding: 22.5px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+}

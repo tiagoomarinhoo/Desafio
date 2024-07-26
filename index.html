@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="assets/Logo.png" alt="Logo alura">
+    </header>
+
+    <main class="conteudocentro">
+        <section class="conteudocentro_centro" >
+        
+            <textarea class="display_texto" placeholder="digite um texto"></textarea>
+            
+            <div class="display_orientacao">
+                <img class="img_int" src="assets/Group.jpg" alt="info">
+                <p class="texto_orientação">Apenas letras minúsculas e sem acento.</p>
+            </div>   
+            
+            <div class="display_bt">
+                <button  class="bt_Criptografar" onclick="criptografarTexto()">Criptografar</button>
+                <button class="bt_descriptografar" onclick="descriptografarTexto()">Descriptografar</button>
+            </div>
+            
+        </section>
+        <section class="caixa_direita">
+            <div class="coteudodocentro_barradireita">
+           
+                <img id="img" class="imagem" src="assets/High quality products 1 1.jpg" alt="foto de boneco" >
+                
+                <div class="conteudo_texto">
+                    <h3 id="tx-none" class="caixa_h3">Nenhuma mensagem encontrada</h3>
+                    <p id="tx-paragrafo" class="tx-texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+
+            </div>
+            <div class="caixaresultado">
+
+                <p id="tx-resultado" class="textocriptografado"></p>
+            
+                <div class="caixa_bt" id="ativarCopiar" style="display: none;">
+                    <button id="bt_copiar"  onclick="copiar()" > Copiar </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+          <p class="rodape">Desenvolvido Por Tiago Marinho</p>
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
