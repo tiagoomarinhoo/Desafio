@@ -2,7 +2,8 @@
 
 
 
-<h2>Descrição do Projeto</h2>
+# Descrição do Projeto
+
 <p>Uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada</p>
 
 ![banner, um pouco do projeto](https://github.com/user-attachments/assets/f953dfd1-a145-4fff-af20-207c8ec51d64)
